@@ -1,7 +1,26 @@
 # To get speech up and running:
 
-sudo pip3 install espeak pyttsx pydub 
+sudo pip3 install espeak pyttsx pydub gTTS
+
 brew install ffmpeg (use apt-get on linux)
+
+# Voices & Linux Support
+
+The code is set up to run out of the box on Mac, but with linux you will need to add in the reference to the voice model (I find they sound far more robotic than Apple's though) You can also use this script to find the other voices on Mac. 
+
+import pyttsx3
+engine = pyttsx3.init()
+
+voices = engine.getProperty('voices')
+for voice in voices:
+    print("Voice:")
+    print(" - ID: %s" % voice.id)
+    print(" - Name: %s" % voice.name)
+    print(" - Languages: %s" % voice.languages)
+    print(" - Gender: %s" % voice.gender)
+    print(" - Age: %s" % voice.age)
+    
+Next, you will go the "interactive_conditional_samples.py" file and edit line 18 to include the path for the voice model
 
 # Remember to download the models as instructed below - setup is the same
 
