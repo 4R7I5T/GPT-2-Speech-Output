@@ -1,3 +1,10 @@
+To get speech up and running:
+
+sudo pip3 install espeak pyttsx pydub 
+brew install ffmpeg (use apt-get on linux)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 **Status:** Archive (code is provided as-is, no updates expected)
 
 # gpt-2
