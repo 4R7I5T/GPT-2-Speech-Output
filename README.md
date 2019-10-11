@@ -1,6 +1,6 @@
 # OUTPUT ONLY!!! 
 
-See my GPT-2-Speech repo for a full Siri or Alexa like interface :-)
+See my GPT-2-Speech repo for a full Siri or Alexa-like interface :-)
 
 # To get speech up and running:
 
