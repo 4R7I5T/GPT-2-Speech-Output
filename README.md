@@ -12,6 +12,7 @@ brew install ffmpeg (use apt-get on linux)
 
 The code is set up to run out of the box on Mac, but with linux you will need to add in the reference to the voice model (I find they sound far more robotic than Apple's though) You can also use this script to find the other voices on Mac. 
 
+```python
 import pyttsx3
 engine = pyttsx3.init()
 
@@ -24,6 +25,8 @@ for voice in voices:
     print(" - Gender: %s" % voice.gender)
     print(" - Age: %s" % voice.age)
     
+```
+
 Next, you will go the "interactive_conditional_samples.py" file and edit line 18 to include the path for the voice model
 
 # Remember to download the models as instructed below - setup is the same
