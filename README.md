@@ -1,3 +1,5 @@
+# OUTPUT ONLY!!! - see my GPT-2-Speech repo for a full Siri or Alexa like interface
+
 # To get speech up and running:
 
 sudo pip3 install espeak pyttsx pydub gTTS
